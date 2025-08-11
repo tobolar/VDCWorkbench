@@ -14,9 +14,9 @@ where users can also report issues and/or supply pull-requests.
 
 <h4>Development</h4>
 <blockquote>
-Dr. Jonathan Brembeck (head of development)<br>
-Deutsches Zentrum f&uuml;r Luft und Raumfahrt e.V. (DLR)<br>
-Institut f&uuml;r Fahrzeugkonzepte, Fahrzeug Systemdynamik und Regelungstechnik (FK-FSR)<br>
+Dr. Jonathan Brembeck (head of development)</br>
+Deutsches Zentrum f&uuml;r Luft und Raumfahrt e.V. (DLR)</br>
+Institut f&uuml;r Fahrzeugkonzepte, Fahrzeug Systemdynamik und Regelungstechnik (FK-FSR)</br>
 M&uuml;nchener Stra&szlig;e 20</br>
 D-82234 We&szlig;ling</br>
 Germany

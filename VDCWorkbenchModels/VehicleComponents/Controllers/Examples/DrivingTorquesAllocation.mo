@@ -28,7 +28,6 @@ equation
     experiment(
       StopTime=2,
       __Dymola_Algorithm="Dassl"), Documentation(info="<html>
-<html>
 <p>
 Allocate torque demands on driving motors for a&nbsp;demanded constant total torque.
 The demanded torques are generated for the front central motor and the rear right and
