@@ -31,10 +31,5 @@ equation
         Text(
           extent={{-140,150},{160,110}},
           textString="%name",
-          textColor={0,0,255})}),
-    Documentation(
-      info="<html>
-<p>
-</p>
-</html>"));
+          textColor={0,0,255})}));
 end ROMOH2Rex;

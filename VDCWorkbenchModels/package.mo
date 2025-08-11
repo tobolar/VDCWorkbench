@@ -15,11 +15,11 @@ package VDCWorkbenchModels
       VehicleInterfaces(version="2.0.1")),
     Documentation(
       revisions="<html>
-<table border=0 cellspacing=0 cellpadding=2>
+<table border=\"0\" cellspacing=\"0\" cellpadding=\"2\">
   <tr>
-    <td valign=\"center\"><img src=\"modelica://VDCWorkbenchModels/Resources/Images/logo_dlr.png\"  width=60 ></td>
-    <td valign=\"center\">&nbsp;&nbsp;&nbsp;</td>
-    <td valign=\"center\"><strong>Copyright</strong>
+    <td valign=\"middle\"><img src=\"modelica://VDCWorkbenchModels/Resources/Images/logo_dlr.png\"  width=60 ></td>
+    <td valign=\"middle\">&nbsp;&nbsp;&nbsp;</td>
+    <td valign=\"middle\"><strong>Copyright</strong>
       <br>&copy; <strong>Department of Vehicle System Dynamics and Control, DLR Institute of Vehicle Concepts</strong> and <strong>Dept. of Mechanical Engineering, University of California Merced</strong>
   </tr>
 </table>
