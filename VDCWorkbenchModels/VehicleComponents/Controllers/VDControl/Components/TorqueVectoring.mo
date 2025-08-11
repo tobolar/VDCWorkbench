@@ -127,7 +127,7 @@ is divided between the front and rear axle by the variable front/rear ratio
 (input <code>alpha_FrontRear</code>) like
 </p>
 <blockquote>
-<var>&tau;</var><sub>F</sub> = <var>&tau;</var> * &alpha;<sub>AD</sub>, </br>
+<var>&tau;</var><sub>F</sub> = <var>&tau;</var> * &alpha;<sub>AD</sub>, <br>
 <var>&tau;</var><sub>R</sub> = <var>&tau;</var> * (1 - &alpha;<sub>AD</sub>),
 </blockquote>
 <p>
@@ -137,7 +137,7 @@ a&nbsp;normalized torque vector ratio &alpha;<sub>TV</sub>&nbsp;&isin;&nbsp;[0, 
 which is the input <code>alpha_TV</code>,
 </p>
 <blockquote>
-<var>&tau;</var><sub>RR</sub> = <var>&tau;</var><sub>R</sub> * &alpha;<sub>TV</sub>, </br>
+<var>&tau;</var><sub>RR</sub> = <var>&tau;</var><sub>R</sub> * &alpha;<sub>TV</sub>, <br>
 <var>&tau;</var><sub>RL</sub> = <var>&tau;</var><sub>R</sub> * (1 - &alpha;<sub>TV</sub>),
 </blockquote>
 <p>
