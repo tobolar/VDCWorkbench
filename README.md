@@ -33,6 +33,6 @@ IEEE VTS Motor Vehicles Challenge 2023: A Multi-physical Benchmark Problem for N
 *19th IEEE Vehicle Power and Propulsion Conference (VPPC)*, 2022
 
 ## License
-Copyright © 2022-2025 DLR & UCM. 
+Copyright &copy; 2022-2025 DLR & UCM. 
 The code is released under the [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
 Link to [short summary of CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/). For attribution see also [license file](LICENSE.MD).
