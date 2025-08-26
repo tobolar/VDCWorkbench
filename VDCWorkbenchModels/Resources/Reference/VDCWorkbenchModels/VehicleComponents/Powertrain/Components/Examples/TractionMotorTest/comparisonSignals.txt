@@ -1,0 +1,7 @@
+time
+inertia.phi
+inertia.w
+rOMOTractionMotor.iq_Filter.x[1]
+rOMOTractionMotor.iq_Filter.x[2]
+rOMOTractionMotor.pMSM.firstOrder.y
+rOMOTractionMotor.pMSM.lossesFriction.phi

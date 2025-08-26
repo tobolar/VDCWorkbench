@@ -1,0 +1,9 @@
+time
+inertia.phi
+inertia.w
+rOMOBatteryPack90s1p.IntegratorSOC.y
+rOMOBatteryPack90s1p.heatCapacitor.T
+rOMOTractionMotor.iq_Filter.x[1]
+rOMOTractionMotor.iq_Filter.x[2]
+rOMOTractionMotor.pMSM.firstOrder.y
+rOMOTractionMotor.pMSM.lossesFriction.phi

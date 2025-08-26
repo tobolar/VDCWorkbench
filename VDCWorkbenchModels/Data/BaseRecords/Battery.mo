@@ -1,0 +1,47 @@
+within VDCWorkbenchModels.Data.BaseRecords;
+record Battery "Basic record containing template data of battery"
+  extends Modelica.Icons.Record;
+
+  parameter String variantName= "" "Name of identification variant";
+  parameter Modelica.Units.NonSI.ElectricCharge_Ah C_N=10 "Nominal cell capacity @ C=0.25, T = 25C";
+  parameter Integer no_s = 1 "Number of cells connected in series in one branch";
+  parameter Integer no_p = 1 "Number of parallel branches";
+  parameter Real[:,:] R_i = [0.0,8.8e-3; 0.2,5e-3; 0.4,3.1e-3; 0.6,2.5e-3; 0.8,3e-3; 1,6e-3]
+    "Inner resistance of cell (col. 2) over state of charge (col. 1)";
+  parameter Real[:,:] SOC_OCV = [0,2.50060000000000; 0.0512282800000000,2.93310000000000; 0.101588810000000,
+          3.10330000000000; 0.150286151000000,3.14360000000000; 0.200708663000000,
+          3.17000000000000; 0.251079523000000,3.19380000000000; 0.301553687000000,
+          3.21150000000000; 0.350313010000000,3.22580000000000; 0.400787174000000,
+          3.23750000000000; 0.402512345000000,3.23780000000000; 0.451158034000000,
+          3.24470000000000; 0.501456581000000,3.24870000000000; 0.550164253000000,
+          3.25150000000000; 0.602363588000000,3.25490000000000; 0.651009277000000,
+          3.25740000000000; 0.701307824000000,3.26020000000000; 0.751678684000000,
+          3.26450000000000; 0.800262391000000,3.27630000000000; 0.850684903000000,
+          3.28930000000000; 0.852410074000000,3.28960000000000; 0.854186897000000,
+          3.28990000000000; 0.901107415000000,3.29550000000000; 0.951416293000000,
+          3.29920000000000; 0.970455156000000,3.30390000000000; 0.984401149000000,
+          3.31880000000000; 0.998223177000000,3.40800000000000; 1,3.58200000000000]
+    "Open circuit voltage of cell (col. 2) over state of charge (col. 1)";
+  parameter Modelica.Units.SI.HeatCapacity Ch_cell=1000 "Heat capacity of the whole pack";
+  parameter Integer N_cycles=100 "Number of cell cycles";
+  parameter Real C_rate=1 "C-Rate during aging";
+  parameter Modelica.Units.NonSI.Temperature_degC T_aged=25 "Temperature during aging";
+  parameter Real b[10]={2.047950e-04,8.774712e-03,1.053884e+00,9.627156e+00,4.145082e+00,
+      5.851487e+02,2.473591e-02,8.568005e-03,-3.290276e+02,1.966467e+01}
+    "Aging parameters";
+
+  annotation (
+    Icon(coordinateSystem(preserveAspectRatio=true),
+      graphics={
+        Text(
+          extent={{-140,-100},{140,-130}},
+          textColor={0,0,0},
+          textString="%variantName")}),
+
+    Documentation(info="<html>
+<p>
+This record contains template data of a&nbsp;battery.
+Extend from this record to create a&nbsp;new record of particular battery.
+</p>
+</html>"));
+end Battery;

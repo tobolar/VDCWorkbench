@@ -1,0 +1,7 @@
+time
+signalRatioFR.y
+signalRatioTV.y
+signalTorqueTotal.y
+torqueDemandFront
+torqueDemandRearL
+torqueDemandRearR
