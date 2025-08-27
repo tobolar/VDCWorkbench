@@ -1,0 +1,9 @@
+time
+body.r[1]
+body.v[1]
+position.phi
+position.w
+simpleAxisFront.wheelInertiaL.phi
+simpleAxisFront.wheelInertiaL.w
+simpleAxisFront.wheelInertiaR.phi
+simpleAxisFront.wheelInertiaR.w
