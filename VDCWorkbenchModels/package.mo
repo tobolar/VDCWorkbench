@@ -5,9 +5,9 @@ package VDCWorkbenchModels
 
   annotation (
     preferredView = "info",
-    version = "0.1.0",
-    versionDate = "2025-07-31",
-    dateModified = "2025-07-31",
+    version = "0.2.0",
+    versionDate = "2025-08-31",
+    dateModified = "2025-08-31",
     uses(
       Modelica(version="4.0.0"),
       ModelicaServices(version="4.0.0"),

@@ -20,6 +20,14 @@ on the library.
   </tr>
   -->
   <tr>
+    <td>0.2.0 (2025-08-31)</td>
+    <td>
+      <p>
+      First version of the library to be published.
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td>0.1.0 (2025-07-31)</td>
     <td>
       <p>
