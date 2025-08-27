@@ -24,15 +24,14 @@ The current release was developed/tested using following tools.
 The reference results for regression testing can be found in [VDCWorkbench_ReferenceResults](https://github.com/DLR-VSDC/VDCWorkbench_ReferenceResults).
 
 ## Bibliography
-Brembeck, J.; de Castro, R.; Ultsch, J.; Tobolar, J.; Winter, Ch. and Ahmic, K.:
-VDCWorkbench: A Vehicle Dynamics Control Test &amp; Evaluation Library for Model and AI-based Control Approaches,
-accepted for the *16th International Modelica and FMI Conference*, Lucerne, Switzerland, 2025.
-
-Brembeck, J.; de Castro, R.; Tobolar, J. & Ebrahimi, I.:
-IEEE VTS Motor Vehicles Challenge 2023: A Multi-physical Benchmark Problem for Next Generation Energy Management Algorithms,
+- J. Brembeck, R. de Castro, J. Tobol&aacute;&rcaron; and I. Ebrahimi:
+IEEE VTS Motor Vehicles Challenge 2023: A Multi-physical Benchmark Problem for Next Generation Energy Management Algorithms, 
 *19th IEEE Vehicle Power and Propulsion Conference (VPPC)*, 2022
+- J. Brembeck, R. de Castro, J. Ultsch, J. Tobolar, Ch. Winter and K. Ahmic:
+VDCWorkbench: A Vehicle Dynamics Control Test &amp; Evaluation Library for Model and AI-based Control Approaches,
+accepted for the *16th International Modelica and FMI Conference*, Lucerne, Switzerland, 2025
 
 ## License
 Copyright &copy; 2022-2025 DLR & UCM. 
 The code is released under the [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
-Link to [short summary of CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/). For attribution see also [license file](LICENSE.MD).
+Link to [short summary of CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/). For attribution see also [license file](LICENSE.md).
