@@ -1,7 +1,6 @@
 within VDCWorkbenchModels.VehicleComponents.Controllers.VDControl;
 model VDCWorkbenchControl_RL "Geometry based path following control for residual reinforcement learning"
-  extends BaseClasses.BaseVDC(
-    redeclare VDCWorkbenchModels.Data.Tracks.Techlab2SBahnTIPI track);
+  extends BaseClasses.BaseVDC;
 //   ,
 //     filePath=ModelicaServices.ExternalReferences.loadResource("modelica://VDCWorkbenchModels/Resources/Maps/Techlab2SBahn-NonOpt_TIPI.mat"),
 //     pathName="path_TIPI");
