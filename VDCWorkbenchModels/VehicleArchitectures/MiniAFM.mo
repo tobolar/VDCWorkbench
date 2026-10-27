@@ -28,8 +28,7 @@ partial model MiniAFM "Vehicle architecture of the DLR's MiniAFM"
 
   replaceable VehicleComponents.Controllers.VDControl.BaseClasses.BaseSubBusses controller
     constrainedby VehicleComponents.Controllers.VDControl.BaseClasses.BaseSubBusses(
-      filePath=ModelicaServices.ExternalReferences.loadResource("modelica://VDCWorkbenchModels/Resources/Maps/RacetrackMini.mat"),
-      pathName="path",
+      redeclare VDCWorkbenchModels.Data.Tracks.RacetrackMini track,
       cf=data.cf,
       cr=data.cr,
       car_r=data.R0,
